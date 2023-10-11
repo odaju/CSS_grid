@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 Body{
-    margin: 0;
+    margin: 0 auto;
     max-width: 1400px;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
@@ -10,6 +10,9 @@ Body{
 
 #grid-container{
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+
 }
 
 #logo{
@@ -21,7 +24,7 @@ Body{
 
 #header{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: baseline;
 }
 
