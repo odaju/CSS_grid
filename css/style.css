@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+Body{
+    margin: 0;
+    max-width: 1400px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#grid-container{
+    display: grid;
+}
+
+#logo{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+header nav ul{
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.default-flex{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.default-flex h2{
+    flex-basis: 100%;
+}
+
+.default-flex article{
+    flex-basis: 33%;
+    min-width: 300px;
+}
+
+.default-flex article img{
+    width: 100%;
+}
